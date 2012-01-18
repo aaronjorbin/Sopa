@@ -1,6 +1,13 @@
 <?php
+/*
+Plugin Name: Jorbin Sopa Message
+Description: SOPA and PIPA message for 18/Jan/2012.
+Author:Aaron Jorbin 
+Author URI: http://aaron.jorb.in
+License:  GPL2
+*/
 
-if ( 1==1)// time() >=  1326862740  &&  time() <= 1326949140)
+if ( time() >=  1326866400  &&  time() <= 1326909600)
 {
     $protocol = $_SERVER["SERVER_PROTOCOL"];
     if ( 'HTTP/1.1' != $protocol && 'HTTP/1.0' != $protocol ) $protocol = 'HTTP/1.0';
